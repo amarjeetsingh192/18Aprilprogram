@@ -15,4 +15,4 @@ print("avalable number of PRBs is :" +str(numPRBs))
 dlslots =1600
 throughput= 977*int(numPRBs)*int(dlslots)*int(input3)/1000/1000
 
-print("max throughtput for this configuration is : " + str(throughput),"gpbs")
+print("max throughtput for this configuration is : " + str(throughput),"Mbps")
